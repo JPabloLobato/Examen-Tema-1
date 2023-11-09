@@ -11,7 +11,15 @@ double calcular_promedio (std::vector<int> calificaciones) {
 }
 
 int main () {
-    std::vector<int> calificaciones = {90, 85, 88, 92, 86};
+    std::vector<int> calificaciones;
+    int numCalificaciones, calificacion;
+    std::cout <<"Ingrese el número de las calificaciones: ";
+    std::cin >> numCalificaciones;
+    for (int i = 0; i < numCalificaciones; i++) {
+        std::cout << "Ingrese la calificación " << i + 1 << ": ";
+        std::cin >> calificacion;
+        calificaciones.push_back(calificacion);
+    }
     double promedio = calcular_promedio(calificaciones);
     std::cout << "El promedio de las calificaciones es: " << promedio << std::endl;
     return 0;
