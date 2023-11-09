@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+//Parte 2 - Ejercicio 2 
 class Estudiante {
     public:
     std::string nombre;
@@ -16,8 +16,8 @@ class Estudiante {
 int main () {
     Estudiante estudiante1;
     estudiante1.nombre = "Ruben"; 
-    estudiante1.edad = 15;
+    estudiante1.edad = 20;
     estudiante1.grado = "Ingenieria Informatica";
-    estudiante1.mostrar_infor();
+    estudiante1.mostrar_info();
     return 0;
 };

@@ -10,4 +10,3 @@ int main (){
     std::cout << "La suma de los numeros es: " << suma << std::endl;
     return 0;
 }
-//Parte 2 - Ejercicio 2
