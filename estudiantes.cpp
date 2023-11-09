@@ -1,6 +1,8 @@
+//Parte 2 - Ejercicio 2
+
 #include <iostream>
 #include <string>
-//Parte 2 - Ejercicio 2 
+
 class Estudiante {
     public:
     std::string nombre;

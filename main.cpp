@@ -1,5 +1,7 @@
-#include <iostream>
 //Parte 2 - Ejercicio 1
+
+#include <iostream>
+
 int main (){
     int num1, num2, suma;
     std::cout << "Ingrese el primer numero: ";
