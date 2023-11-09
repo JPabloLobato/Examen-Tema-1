@@ -16,4 +16,9 @@ C++ es im lenguaje que combin ambos puntos, dejando definir clases y objetos, ma
 Ejercicio 9:  Las excepciones en C++ tienen un comportamiento específico. Describe:
 ¿Qué es la propagación de una excepción?
 ¿Qué ocurre si una excepción lanzada no es capturada por ningún bloque catch?
-Respuesta: 
+Respuesta: La programación de excepción en C++ demanda los bloque catch en la pila de llamada. Si no lo halla, terminate() la función, ejecuta, finalizando el programa.
+Ejercicio 10: La gestión de recursos es un concepto crucial en la programación. Explica:
+¿Qué se entiende por "Adquisición de Recursos" en el contexto de C++?
+¿Por qué es importante y cómo se relaciona con la gestión de excepciones?
+Respuesta: La "Adquisición de recursos" en C++ hace que pueda captar y soltar recursos como memoría o archivos, haciendo que no existan fallos, como fugas y perdidas.
+En gestión de excepciones asegura la correcta distribución de recursos en ocasiones de error, protegiendo al programa.
