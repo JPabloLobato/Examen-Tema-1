@@ -1,7 +1,8 @@
-//Parte 2 - Ejercicio 2 y 5
+//Parte 2 - Ejercicio 2 y 5 (estaba escribiendo el 9 pero me daba error con class estudiante, por lo que lo hago en otro archivo)
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 class Estudiante {
     public:
