@@ -1,5 +1,4 @@
 //Parte 2 - Ejercicio 3
-
 #include <iostream>
 
 void intercambiar (int* a, int* b) { // Utilizamos "*" para declarar el puntero.
@@ -11,8 +10,8 @@ void intercambiar (int* a, int* b) { // Utilizamos "*" para declarar el puntero.
 int main () {
     int num1 = 5;
     int num2 = 10; 
-    std::cout <<"Antes del intercambio: " << std::endl;
+    std::cout <<"Antes del intercambio: " << num1 << " " << num2 << std::endl;
     intercambiar (&num1, &num2); //Utilizamos "&" para pasar la direccion de memoria de la variable.
-    std::cout << "Despues del intercambio: " << std::endl;
+    std::cout << "Despues del intercambio: " << num1 << " " << num2 << std::endl;
     return 0;
 }

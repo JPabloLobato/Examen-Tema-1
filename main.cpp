@@ -1,5 +1,4 @@
 //Parte 2 - Ejercicio 1
-
 #include <iostream>
 
 int main (){
